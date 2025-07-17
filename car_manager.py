@@ -4,11 +4,11 @@ COLORS = ["red", "orange", "yellow", "green", "blue", "purple"]
 STARTING_MOVE_DISTANCE = 5
 MOVE_INCREMENT = 10
 screen=Screen()
-screen.register_shape("Jour23_TurtleCrossing/assets/car1.gif")
-screen.register_shape("Jour23_TurtleCrossing/assets/car2.gif")
-screen.register_shape("Jour23_TurtleCrossing/assets/car3.gif")
-screen.register_shape("Jour23_TurtleCrossing/assets/car4.gif")
-car_list=["Jour23_TurtleCrossing/assets/car1.gif","Jour23_TurtleCrossing/assets/car2.gif","Jour23_TurtleCrossing/assets/car3.gif","Jour23_TurtleCrossing/assets/car4.gif"]
+screen.register_shape("./assets/car1.gif")
+screen.register_shape("./assets/car2.gif")
+screen.register_shape("./assets/car3.gif")
+screen.register_shape("./assets/car4.gif")
+car_list=["./assets/car1.gif","./assets/car2.gif","./assets/car3.gif","./assets/car4.gif"]
 
 
 class CarManager:

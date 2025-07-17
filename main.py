@@ -9,7 +9,7 @@ screen.setup(width=600, height=600)
 screen.tracer(0)
 screen.title("Turtle Crossing Game")
 player=Player()
-screen.bgpic("Jour23_TurtleCrossing/assets/racetrack.gif")
+screen.bgpic("./assets/racetrack.gif")
 screen.listen()
 screen.onkeypress(player.move_up,"Up")
 game_is_on = True
